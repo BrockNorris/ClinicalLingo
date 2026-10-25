@@ -51,7 +51,7 @@ def mermaid_source() -> str:
 
 def render_diagram(edge_bin: str, profile: Path) -> Path:
     """Two headless passes: measure the rendered SVG, then screenshot at exactly that size."""
-    html = f"""<!doctype html><html><head><meta charset="utf-8"><style>body{{margin:16px;background:#fff}}#d{{width:1400px}}</style></head>
+    html = f"""<!doctype html><html><head><meta charset="utf-8"><style>body{{margin:16px;background:#fff}}#d{{width:1800px}}</style></head>
 <body><pre id="d" class="mermaid">{mermaid_source()}</pre>
 <script src="{MERMAID_CDN}"></script><script>
 mermaid.initialize({{startOnLoad:false,theme:'default',flowchart:{{htmlLabels:true,curve:'basis'}}}});

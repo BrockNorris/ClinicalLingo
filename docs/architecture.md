@@ -8,40 +8,49 @@ flowchart TB
     classDef notbuilt fill:#fff,stroke:#999,stroke-width:1.5px,stroke-dasharray:6 4,color:#555
     classDef log fill:#fff8e1,stroke:#b7791f,stroke-width:1.5px,color:#000
     classDef store fill:#eef7ee,stroke:#2f855a,stroke-width:1.5px,color:#000
+    classDef lane fill:#fafafa,stroke:#bbb,stroke-width:1px,color:#333
 
-    CLI["Input: CLI text + mode<br/>(word | sentence | page)"]:::built
-    PHOTO["Input: photo + on-device OCR"]:::notbuilt
-    VAL["Validation<br/>mode, control chars, non-empty<br/>length ≤ 64 / 512 / 4000"]:::built
-    RET["Retrieval (RAG)<br/>all-MiniLM-L6-v2 embedding<br/>lexical match + cosine top-k ≥ 0.35"]:::built
-    MED[("medical_dictionary<br/>248 entries (priority)")]:::store
-    GEN[("general_dictionary<br/>54 entries")]:::store
-    WEBC[("web_cache<br/>grown at runtime")]:::store
-    WEB["Tool call: web search<br/>direct Radiopaedia probe + DuckDuckGo/Yahoo<br/>domain allow-list, 30 s budget<br/>relevance check ≥ 0.35"]:::built
-    PB["Prompt Builder<br/>numbered entries + JSON schema"]:::built
-    LLM["Model Inference<br/>Phi-3-mini 3.8B Q4_0 (Ollama, local)<br/>JSON mode, 120 s timeout"]:::built
-    POST["Postprocessing<br/>lenient JSON → Pydantic (DefinitionCard | Rewrite)<br/>grounding check, confidence flag, 1 retry"]:::built
-    OUT["Output<br/>definition card / plain rewrite + sources"]:::built
-    LOOP["Feedback loop (simple agent loop)<br/>quiz from retrieved entries → cosine similarity<br/>< 0.55 deeper · 0.55–0.75 clarify · ≥ 0.75 related"]:::built
-    RV["Response validation<br/>content filter, per-user rate limit"]:::notbuilt
-    APP["Mobile client / server API<br/>illustrations, shared cache"]:::notbuilt
-    LOG["Logging — logs/runs.jsonl<br/>run_id, input size, stages, latency per stage,<br/>retrieval scores, model info, status, output"]:::log
+    subgraph L1["Stages 1-3"]
+        direction LR
+        CLI["Input<br/>CLI text + mode<br/>word | sentence | page"]:::built
+        PHOTO["Input<br/>photo + on-device OCR"]:::notbuilt
+        VAL["Validation<br/>mode, control chars,<br/>non-empty, length<br/>64 / 512 / 4000"]:::built
+        MED[("medical_dictionary<br/>248 entries, priority")]:::store
+        GEN[("general_dictionary<br/>54 entries")]:::store
+        WEBC[("web_cache<br/>grown at runtime")]:::store
+        RET["Retrieval<br/>MiniLM embedding<br/>lexical + cosine top-k<br/>score >= 0.35"]:::built
+        WEB["Tool: web search<br/>Radiopaedia probe +<br/>DuckDuckGo/Yahoo<br/>allow-list, 30 s budget<br/>relevance >= 0.35"]:::built
+        LOG["Logging: logs/runs.jsonl<br/>run_id, input size, stages,<br/>latency per stage, retrieval<br/>scores, model, status, output"]:::log
+        CLI --> VAL
+        PHOTO -.-> VAL
+        VAL -- "ValidatedRequest" --> RET
+        MED --> RET
+        GEN --> RET
+        WEBC --> RET
+        RET -- "coverage < 0.55<br/>(word mode)" --> WEB
+        WEB -- "relevant passages" --> WEBC
+        VAL -. "every stage writes<br/>a timed entry" .-> LOG
+    end
 
-    CLI --> VAL
-    PHOTO -.-> VAL
-    VAL -- "ValidatedRequest" --> RET
-    MED --> RET
-    GEN --> RET
-    WEBC --> RET
-    RET -- "word mode, coverage < 0.55" --> WEB
-    WEB -- "relevant passages" --> WEBC
-    RET -- "RetrievalResult (≤ k chunks)" --> PB
-    PB -- "Prompt" --> LLM
-    LLM -- "raw str" --> POST
-    POST -- "ExplainResult" --> OUT
-    OUT -- "--quiz" --> LOOP
-    LOOP -. "deeper explanation" .-> LLM
-    OUT -.-> RV -.-> APP
-    VAL -. "every stage writes a timed entry" .-> LOG
+    subgraph L2["Stages 4-6"]
+        direction LR
+        PB["Prompt Builder<br/>numbered entries<br/>+ JSON schema"]:::built
+        LLM["Model Inference<br/>Phi-3-mini 3.8B Q4_0<br/>Ollama, local<br/>JSON mode, 120 s"]:::built
+        POST["Postprocessing<br/>JSON -> Pydantic<br/>Card | Rewrite<br/>grounding, confidence<br/>1 retry"]:::built
+        OUT["Output<br/>definition card /<br/>plain rewrite<br/>+ sources"]:::built
+        LOOP["Feedback loop<br/>quiz from entries, cosine similarity<br/>deeper (model re-explains) /<br/>clarify / related terms"]:::built
+        RV["Response validation<br/>content filter,<br/>rate limit"]:::notbuilt
+        APP["Mobile client /<br/>server API"]:::notbuilt
+        PB -- "Prompt" --> LLM
+        LLM -- "raw str" --> POST
+        POST -- "ExplainResult" --> OUT
+        OUT -- "--quiz" --> LOOP
+        LOOP -.-> LLM
+        OUT -.-> RV -.-> APP
+    end
+
+    L1 == "RetrievalResult (<= k chunks)" ==> L2
+    class L1,L2 lane
 ```
 
 ## Stage boundaries (data contracts)
