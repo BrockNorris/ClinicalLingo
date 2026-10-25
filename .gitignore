@@ -1,0 +1,16 @@
+# runtime output
+logs/
+data/web_cache/
+docs/example_runs/*.jsonl
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+._*

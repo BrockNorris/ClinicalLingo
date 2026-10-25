@@ -1,0 +1,2522 @@
+[
+ {
+  "term": "acoustic impedance",
+  "definition": "A property of tissue equal to its density multiplied by the speed of sound in it. The difference in acoustic impedance between two tissues at a boundary determines how much of the sound is reflected back as an echo; a bigger difference gives a stronger echo.",
+  "synonyms": [
+   "impedance",
+   "Z"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "attenuation",
+  "definition": "The weakening of the ultrasound beam as it travels through tissue, caused by absorption, scattering, and reflection. Attenuation increases with depth and with higher transducer frequency, which is why deep structures need lower frequencies.",
+  "synonyms": [
+   "attenuate",
+   "attenuated",
+   "attenuating"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "absorption",
+  "definition": "Conversion of sound energy into heat within tissue. It is the largest contributor to attenuation.",
+  "synonyms": [],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "echogenicity",
+  "definition": "How strongly a tissue reflects ultrasound, and therefore how bright it appears on the image. Described relative to a reference tissue using the terms hyperechoic, hypoechoic, isoechoic, and anechoic.",
+  "synonyms": [
+   "echogenic pattern"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "echogenic",
+  "definition": "Describes a structure that reflects ultrasound strongly and therefore appears bright or white on the image, such as bone, stones, fat, or fibrous tissue.",
+  "synonyms": [
+   "bright",
+   "reflective",
+   "echo-producing"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "hyperechoic",
+  "definition": "Brighter than the surrounding or reference tissue because it produces more echoes. For example, a hemangioma is typically hyperechoic compared with normal liver.",
+  "synonyms": [
+   "hyperechogenic",
+   "increased echogenicity"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "hypoechoic",
+  "definition": "Darker than the surrounding or reference tissue because it produces fewer echoes, but not completely black. Many solid masses and inflamed organs appear hypoechoic.",
+  "synonyms": [
+   "hypoechogenic",
+   "decreased echogenicity"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "anechoic",
+  "definition": "Producing no internal echoes, so the structure appears black on the image. Simple fluid such as a cyst, the urinary bladder, or the gallbladder lumen is anechoic.",
+  "synonyms": [
+   "echo-free",
+   "sonolucent",
+   "echoless"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "isoechoic",
+  "definition": "Having the same echogenicity as the adjacent or reference tissue, which can make the structure hard to see; its edges or the way it displaces vessels may be the only clue.",
+  "synonyms": [
+   "isoechogenic"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "heterogeneous",
+  "definition": "Having an uneven, mixed pattern of echoes, with areas of different brightness within the same tissue or mass. Often a sign of disease or a complex lesion.",
+  "synonyms": [
+   "heterogenous",
+   "mixed echotexture"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "homogeneous",
+  "definition": "Having a uniform, evenly distributed pattern of echoes throughout. Normal liver, spleen, and thyroid are described as homogeneous.",
+  "synonyms": [
+   "homogenous",
+   "uniform echotexture"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "echotexture",
+  "definition": "The visual pattern of echoes within a tissue on the image, described with words like fine, coarse, homogeneous, or heterogeneous.",
+  "synonyms": [
+   "echo texture",
+   "parenchymal pattern"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "transducer",
+  "definition": "The hand-held device that converts electrical energy into sound pulses and the returning echoes back into electrical signals, using piezoelectric elements. The probe is chosen by frequency and shape to fit the body region being scanned.",
+  "synonyms": [
+   "probe",
+   "scanhead"
+  ],
+  "source": "medical_dictionary",
+  "category": "instrumentation"
+ },
+ {
+  "term": "piezoelectric effect",
+  "definition": "The property of certain crystals and ceramics to produce a voltage when they are squeezed and to change shape when a voltage is applied. It is how transducer elements both send and receive sound.",
+  "synonyms": [
+   "piezoelectric",
+   "piezoelectricity"
+  ],
+  "source": "medical_dictionary",
+  "category": "instrumentation"
+ },
+ {
+  "term": "frequency",
+  "definition": "The number of sound cycles per second, measured in hertz. Diagnostic ultrasound uses about 2 to 15 megahertz. Higher frequency gives better detail (resolution) but less penetration into the body.",
+  "synonyms": [
+   "operating frequency",
+   "transducer frequency"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "wavelength",
+  "definition": "The distance covered by one complete cycle of the sound wave. Wavelength gets shorter as frequency rises, and shorter wavelengths allow finer axial resolution.",
+  "synonyms": [],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "propagation speed",
+  "definition": "The speed at which sound travels through a medium. The ultrasound machine assumes an average soft-tissue speed of 1540 meters per second to calculate how deep each echo came from.",
+  "synonyms": [
+   "speed of sound",
+   "acoustic velocity"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "axial resolution",
+  "definition": "The ability to tell apart two structures that lie one in front of the other along the beam's path. It is set by the spatial pulse length; shorter pulses (higher frequency) give better axial resolution.",
+  "synonyms": [
+   "longitudinal resolution",
+   "range resolution",
+   "depth resolution",
+   "LARRD"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "lateral resolution",
+  "definition": "The ability to tell apart two structures lying side by side, perpendicular to the beam. It depends on beam width and is best at the focal zone, where the beam is narrowest.",
+  "synonyms": [
+   "azimuthal resolution",
+   "transverse resolution"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "temporal resolution",
+  "definition": "The ability of the system to show moving structures accurately over time. It is determined by the frame rate; a higher frame rate gives better temporal resolution.",
+  "synonyms": [
+   "frame rate"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "gain",
+  "definition": "The amount of amplification applied to all returning echoes. Turning gain up makes the entire image brighter; it does not change the sound sent into the patient.",
+  "synonyms": [
+   "overall gain",
+   "receiver gain"
+  ],
+  "source": "medical_dictionary",
+  "category": "instrumentation"
+ },
+ {
+  "term": "time gain compensation",
+  "definition": "Depth-dependent amplification that boosts echoes from deeper tissue more than shallow ones to make up for attenuation, so that similar tissues look equally bright at every depth.",
+  "synonyms": [
+   "TGC",
+   "depth gain compensation",
+   "DGC"
+  ],
+  "source": "medical_dictionary",
+  "category": "instrumentation"
+ },
+ {
+  "term": "dynamic range",
+  "definition": "The range between the weakest and strongest echo intensities a system can process or display, expressed in decibels. A wider dynamic range shows more shades of gray; a narrower one gives a higher-contrast image.",
+  "synonyms": [
+   "compression"
+  ],
+  "source": "medical_dictionary",
+  "category": "instrumentation"
+ },
+ {
+  "term": "focal zone",
+  "definition": "The depth region where the beam is narrowest and lateral resolution is best. The sonographer places the focal zone at the depth of the structure of interest.",
+  "synonyms": [
+   "focus",
+   "focal region",
+   "focal point"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "field of view",
+  "definition": "The area of the patient's anatomy shown on the screen. Narrowing the field of view raises the frame rate.",
+  "synonyms": [
+   "FOV",
+   "sector width"
+  ],
+  "source": "medical_dictionary",
+  "category": "instrumentation"
+ },
+ {
+  "term": "B-mode",
+  "definition": "Brightness mode: the standard two-dimensional gray-scale image in which the strength of each echo is shown as the brightness of a dot on the screen.",
+  "synonyms": [
+   "brightness mode",
+   "gray-scale imaging",
+   "grayscale",
+   "2D imaging"
+  ],
+  "source": "medical_dictionary",
+  "category": "instrumentation"
+ },
+ {
+  "term": "M-mode",
+  "definition": "Motion mode: a display that tracks the movement of structures along a single scan line over time. It is used to measure heart-wall motion and to document fetal heart rate.",
+  "synonyms": [
+   "motion mode",
+   "TM-mode"
+  ],
+  "source": "medical_dictionary",
+  "category": "instrumentation"
+ },
+ {
+  "term": "real-time imaging",
+  "definition": "Continuous display of rapidly updated ultrasound frames so that motion is seen as it happens, like a movie rather than a still picture.",
+  "synonyms": [
+   "real time",
+   "real-time"
+  ],
+  "source": "medical_dictionary",
+  "category": "instrumentation"
+ },
+ {
+  "term": "pulse repetition frequency",
+  "definition": "The number of pulses the transducer sends per second. Deeper imaging requires a lower PRF because the system must wait for echoes to return. In Doppler, PRF sets the Nyquist limit.",
+  "synonyms": [
+   "PRF",
+   "pulse repetition rate"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "spatial pulse length",
+  "definition": "The physical length of one transmitted pulse, equal to the number of cycles times the wavelength. Shorter pulses give better axial resolution.",
+  "synonyms": [
+   "SPL",
+   "pulse length"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "decibel",
+  "definition": "A logarithmic unit used to compare two intensities or amplitudes, such as how much a signal has been attenuated or amplified. A change of 3 dB is a doubling or halving of intensity.",
+  "synonyms": [
+   "dB",
+   "decibels"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "near field",
+  "definition": "The part of the beam between the transducer face and the focus, where the beam narrows. Structures very close to the probe may be poorly seen here.",
+  "synonyms": [
+   "Fresnel zone",
+   "near zone"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "far field",
+  "definition": "The part of the beam beyond the focus, where the beam spreads out (diverges) and lateral resolution worsens.",
+  "synonyms": [
+   "Fraunhofer zone",
+   "far zone"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "harmonic imaging",
+  "definition": "A technique that listens for echoes at twice the transmitted frequency, which are generated inside the tissue. It improves contrast and reduces near-field clutter and artifacts, especially in larger patients.",
+  "synonyms": [
+   "tissue harmonic imaging",
+   "THI",
+   "harmonics"
+  ],
+  "source": "medical_dictionary",
+  "category": "instrumentation"
+ },
+ {
+  "term": "acoustic window",
+  "definition": "A structure that transmits sound well and is used as a pathway to image something deeper. A full urinary bladder is the window for the pelvis; the liver is a window for the right kidney.",
+  "synonyms": [
+   "sonographic window",
+   "window"
+  ],
+  "source": "medical_dictionary",
+  "category": "technique"
+ },
+ {
+  "term": "sonographic",
+  "definition": "Relating to ultrasound imaging. The sonographic appearance of a structure is how it looks on ultrasound.",
+  "synonyms": [
+   "sonographically",
+   "ultrasonographic",
+   "sonographic appearance"
+  ],
+  "source": "medical_dictionary",
+  "category": "general"
+ },
+ {
+  "term": "ALARA",
+  "definition": "As Low As Reasonably Achievable: the safety principle of using the lowest acoustic output and shortest scanning time that still produce a diagnostic image.",
+  "synonyms": [
+   "as low as reasonably achievable"
+  ],
+  "source": "medical_dictionary",
+  "category": "safety"
+ },
+ {
+  "term": "thermal index",
+  "definition": "An on-screen number estimating the potential temperature rise in tissue from the ultrasound beam. Kept low, especially in obstetric scanning.",
+  "synonyms": [
+   "TI",
+   "TIS",
+   "TIB"
+  ],
+  "source": "medical_dictionary",
+  "category": "safety"
+ },
+ {
+  "term": "mechanical index",
+  "definition": "An on-screen number estimating the likelihood of mechanical bioeffects such as cavitation (bubble formation) in tissue.",
+  "synonyms": [
+   "MI"
+  ],
+  "source": "medical_dictionary",
+  "category": "safety"
+ },
+ {
+  "term": "curvilinear transducer",
+  "definition": "A probe with a curved face that produces a wide, fan-shaped image. Its lower frequencies (about 2 to 5 megahertz) make it the usual choice for abdominal and obstetric scanning.",
+  "synonyms": [
+   "curved array",
+   "convex transducer",
+   "convex array",
+   "curvilinear"
+  ],
+  "source": "medical_dictionary",
+  "category": "instrumentation"
+ },
+ {
+  "term": "linear transducer",
+  "definition": "A flat-faced probe producing a rectangular image at higher frequencies (about 5 to 15 megahertz). Used for superficial structures such as the thyroid, breast, and blood vessels.",
+  "synonyms": [
+   "linear array",
+   "linear probe"
+  ],
+  "source": "medical_dictionary",
+  "category": "instrumentation"
+ },
+ {
+  "term": "phased array transducer",
+  "definition": "A small-footprint probe whose beam is electronically steered to sweep out a pie-shaped image. Its small face fits between ribs, so it is used for cardiac imaging.",
+  "synonyms": [
+   "phased array",
+   "sector probe",
+   "cardiac probe"
+  ],
+  "source": "medical_dictionary",
+  "category": "instrumentation"
+ },
+ {
+  "term": "artifact",
+  "definition": "Something on the image that does not match the real location, size, shape, or brightness of a structure. Artifacts occur when the machine's physical assumptions (straight-line travel, constant speed, single reflection) are violated. Some artifacts are diagnostically useful.",
+  "synonyms": [
+   "artefact",
+   "artifacts"
+  ],
+  "source": "medical_dictionary",
+  "category": "artifacts"
+ },
+ {
+  "term": "acoustic shadowing",
+  "definition": "A dark (hypoechoic or anechoic) band behind a structure that strongly reflects or absorbs sound, such as a gallstone, bone, or gas, because little sound gets through to the tissue beyond it.",
+  "synonyms": [
+   "shadowing",
+   "posterior acoustic shadowing",
+   "acoustic shadow",
+   "shadow"
+  ],
+  "source": "medical_dictionary",
+  "category": "artifacts"
+ },
+ {
+  "term": "posterior acoustic enhancement",
+  "definition": "The area behind a fluid-filled structure appears brighter than neighboring tissue at the same depth, because fluid attenuates very little sound. It helps confirm that a structure is a cyst.",
+  "synonyms": [
+   "acoustic enhancement",
+   "through transmission",
+   "increased through-transmission",
+   "enhancement"
+  ],
+  "source": "medical_dictionary",
+  "category": "artifacts"
+ },
+ {
+  "term": "reverberation",
+  "definition": "A series of equally spaced echoes caused by sound bouncing back and forth between two strong reflectors, such as the transducer face and a nearby interface. Seen as repeating bright lines.",
+  "synonyms": [
+   "reverberation artifact",
+   "reverb"
+  ],
+  "source": "medical_dictionary",
+  "category": "artifacts"
+ },
+ {
+  "term": "comet-tail artifact",
+  "definition": "A type of reverberation that produces a short, tapering trail of closely spaced echoes behind a small, strongly reflecting object such as cholesterol crystals in the gallbladder wall or a surgical clip.",
+  "synonyms": [
+   "comet tail",
+   "comet-tail"
+  ],
+  "source": "medical_dictionary",
+  "category": "artifacts"
+ },
+ {
+  "term": "ring-down artifact",
+  "definition": "A continuous bright line or series of parallel bands extending deep to a collection of gas bubbles, caused by the bubbles resonating. Commonly seen behind bowel gas.",
+  "synonyms": [
+   "ring down",
+   "ring-down"
+  ],
+  "source": "medical_dictionary",
+  "category": "artifacts"
+ },
+ {
+  "term": "mirror image artifact",
+  "definition": "A duplicate copy of a structure displayed on the far side of a strong, curved reflector such as the diaphragm, because the sound path is bent and the machine assumes it traveled straight.",
+  "synonyms": [
+   "mirror artifact",
+   "mirror image"
+  ],
+  "source": "medical_dictionary",
+  "category": "artifacts"
+ },
+ {
+  "term": "refraction",
+  "definition": "Bending of the sound beam as it crosses, at an angle, a boundary between tissues with different propagation speeds. It can misplace structures or display one structure twice.",
+  "synonyms": [
+   "refraction artifact",
+   "refractive"
+  ],
+  "source": "medical_dictionary",
+  "category": "artifacts"
+ },
+ {
+  "term": "edge shadowing",
+  "definition": "A thin shadow extending from the curved edge of a rounded structure such as a cyst or the gallbladder, caused by refraction of the beam at the edge. It does not mean there is a stone.",
+  "synonyms": [
+   "edge shadow",
+   "refractive shadowing",
+   "edge artifact"
+  ],
+  "source": "medical_dictionary",
+  "category": "artifacts"
+ },
+ {
+  "term": "side lobe artifact",
+  "definition": "False echoes caused by weak off-axis beams (side lobes) hitting a strong reflector; the machine displays them as if they came from the main beam, which can put false low-level echoes inside an anechoic structure.",
+  "synonyms": [
+   "side lobes",
+   "grating lobe artifact",
+   "grating lobes"
+  ],
+  "source": "medical_dictionary",
+  "category": "artifacts"
+ },
+ {
+  "term": "slice thickness artifact",
+  "definition": "Low-level false echoes inside a fluid structure caused by the beam being thick in the elevation plane, so it picks up tissue beside the fluid and averages it into the slice.",
+  "synonyms": [
+   "partial volume artifact",
+   "elevational resolution artifact",
+   "section thickness artifact"
+  ],
+  "source": "medical_dictionary",
+  "category": "artifacts"
+ },
+ {
+  "term": "speckle",
+  "definition": "The grainy, salt-and-pepper texture of ultrasound images, caused by interference between echoes scattered from many tiny reflectors within the tissue.",
+  "synonyms": [
+   "acoustic speckle"
+  ],
+  "source": "medical_dictionary",
+  "category": "artifacts"
+ },
+ {
+  "term": "Doppler effect",
+  "definition": "The change in frequency of a sound wave when the reflector (such as moving red blood cells) moves toward or away from the source. Ultrasound uses it to detect and measure blood flow.",
+  "synonyms": [
+   "Doppler",
+   "Doppler principle"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "Doppler shift",
+  "definition": "The difference between the transmitted frequency and the frequency of the returning echo. It is proportional to the speed of the blood and to the cosine of the Doppler angle.",
+  "synonyms": [
+   "frequency shift",
+   "Doppler frequency"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "Doppler angle",
+  "definition": "The angle between the ultrasound beam and the direction of blood flow. Accurate velocities require an angle of 60 degrees or less; at 90 degrees no Doppler shift is detected.",
+  "synonyms": [
+   "angle of insonation",
+   "insonation angle",
+   "angle correction"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "color Doppler",
+  "definition": "A mode that overlays colors on the gray-scale image to show the average velocity and direction of flow in each location, conventionally red toward and blue away from the transducer.",
+  "synonyms": [
+   "color flow imaging",
+   "CFI",
+   "color flow",
+   "CDI",
+   "colour Doppler"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "power Doppler",
+  "definition": "A mode that displays the strength (amplitude) of the Doppler signal rather than velocity or direction. It is more sensitive to slow flow and less dependent on angle, but shows no direction.",
+  "synonyms": [
+   "energy Doppler",
+   "color power angio",
+   "CPA",
+   "amplitude Doppler"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "spectral Doppler",
+  "definition": "A display of blood velocity over time as a waveform, with velocity on the vertical axis and time on the horizontal axis. It is used to measure velocities and resistance indices.",
+  "synonyms": [
+   "spectral analysis",
+   "spectral waveform",
+   "duplex Doppler"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "pulsed-wave Doppler",
+  "definition": "A Doppler mode that samples flow at one chosen depth, the sample volume or gate. It tells where the flow is but cannot measure very high velocities because of aliasing.",
+  "synonyms": [
+   "PW Doppler",
+   "pulsed Doppler",
+   "pulsed wave"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "continuous-wave Doppler",
+  "definition": "A Doppler mode that transmits and receives continuously using separate elements. It can measure very high velocities without aliasing but cannot tell the depth the signal came from.",
+  "synonyms": [
+   "CW Doppler",
+   "continuous wave"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "aliasing",
+  "definition": "An artifact in pulsed and color Doppler in which velocities above the Nyquist limit wrap around and are displayed as flow in the opposite direction. It is fixed by raising the PRF or scale, lowering the baseline, or using a lower frequency.",
+  "synonyms": [
+   "alias",
+   "wraparound"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "Nyquist limit",
+  "definition": "The highest Doppler shift that pulsed Doppler can display correctly, equal to half the pulse repetition frequency. Shifts above it alias.",
+  "synonyms": [
+   "Nyquist frequency",
+   "Nyquist"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "resistive index",
+  "definition": "A measure of downstream vascular resistance calculated from the spectral waveform as (peak systolic velocity minus end diastolic velocity) divided by peak systolic velocity. Normal renal RI is below about 0.7.",
+  "synonyms": [
+   "RI",
+   "resistance index",
+   "Pourcelot index"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "pulsatility index",
+  "definition": "A measure of how pulsatile a waveform is, calculated as (peak systolic velocity minus minimum diastolic velocity) divided by the mean velocity.",
+  "synonyms": [
+   "PI"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "peak systolic velocity",
+  "definition": "The highest blood velocity reached during systole on a spectral waveform. It rises sharply across a stenosis and is a key measurement in carotid and renal artery exams.",
+  "synonyms": [
+   "PSV"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "end diastolic velocity",
+  "definition": "The blood velocity at the end of diastole, just before the next systolic upstroke. Used with PSV to calculate the resistive index.",
+  "synonyms": [
+   "EDV"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "laminar flow",
+  "definition": "Smooth, orderly blood flow in parallel layers, fastest at the center of the vessel and slowest near the walls. It produces a clean spectral waveform with a clear window.",
+  "synonyms": [
+   "laminar",
+   "plug flow"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "turbulent flow",
+  "definition": "Chaotic, disorganized flow with many different velocities and directions at once, typically just beyond a stenosis. It causes spectral broadening and a mosaic of colors on color Doppler.",
+  "synonyms": [
+   "turbulence",
+   "disturbed flow"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "spectral broadening",
+  "definition": "Widening of the band of velocities on a spectral waveform so that the clear window beneath the trace fills in. It indicates turbulent flow, often from a stenosis.",
+  "synonyms": [
+   "broadening",
+   "filling in of the spectral window"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "high-resistance flow",
+  "definition": "A waveform pattern with a sharp systolic peak and little, absent, or briefly reversed flow in diastole. It is normal in resting limb arteries and the external carotid artery.",
+  "synonyms": [
+   "high resistance",
+   "high-resistance waveform",
+   "triphasic"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "low-resistance flow",
+  "definition": "A waveform pattern with continuous forward flow throughout diastole, meaning the organ downstream needs blood all the time. Normal in the internal carotid, renal, hepatic, and testicular arteries.",
+  "synonyms": [
+   "low resistance",
+   "low-resistance waveform",
+   "monophasic"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "systole",
+  "definition": "The phase of the heartbeat when the ventricles contract and eject blood, producing the peak of the arterial waveform.",
+  "synonyms": [
+   "systolic"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "diastole",
+  "definition": "The phase of the heartbeat when the ventricles relax and fill. Flow during diastole depends on the resistance of the downstream vascular bed.",
+  "synonyms": [
+   "diastolic"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "hepatopetal",
+  "definition": "Blood flow directed toward the liver. This is the normal direction of flow in the portal vein.",
+  "synonyms": [
+   "hepatopetal flow"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "hepatofugal",
+  "definition": "Blood flow directed away from the liver. Hepatofugal flow in the portal vein is abnormal and is a sign of portal hypertension.",
+  "synonyms": [
+   "hepatofugal flow",
+   "reversed portal flow"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "phasic",
+  "definition": "Varying in step with breathing or the heartbeat. Normal venous flow in the legs is phasic with respiration; loss of phasicity suggests an obstruction upstream.",
+  "synonyms": [
+   "phasicity",
+   "respiratory phasicity"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "augmentation",
+  "definition": "A sharp increase in venous flow when the limb beyond the probe is squeezed. A normal augmentation response shows the vein is open (patent) between the squeeze and the probe.",
+  "synonyms": [
+   "augment",
+   "distal augmentation"
+  ],
+  "source": "medical_dictionary",
+  "category": "doppler"
+ },
+ {
+  "term": "parenchyma",
+  "definition": "The functional tissue of an organ, as opposed to its supporting framework, vessels, and ducts. The liver parenchyma is the liver tissue itself.",
+  "synonyms": [
+   "parenchymal"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "hilum",
+  "definition": "The indented area of an organ where blood vessels, nerves, and ducts enter and leave, as in the kidney, spleen, or lung.",
+  "synonyms": [
+   "hilus",
+   "hilar"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "cortex",
+  "definition": "The outer layer of an organ such as the kidney, adrenal gland, or brain. The renal cortex contains the filtering units and is normally slightly less echogenic than the liver.",
+  "synonyms": [
+   "cortical"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "medulla",
+  "definition": "The inner part of an organ, inside the cortex. The renal medulla contains the pyramids, which appear as hypoechoic triangles.",
+  "synonyms": [
+   "medullary"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "renal pyramids",
+  "definition": "Triangular, hypoechoic regions of the kidney's medulla that point toward the renal sinus. They are more prominent in children and can be mistaken for cysts or dilated calyces.",
+  "synonyms": [
+   "medullary pyramids",
+   "pyramids"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "renal sinus",
+  "definition": "The bright (echogenic) central part of the kidney containing fat, blood vessels, and the collecting system (calyces and renal pelvis).",
+  "synonyms": [
+   "central sinus",
+   "sinus fat"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "hepatic",
+  "definition": "Relating to the liver. Hepatic veins drain the liver; hepatic artery supplies it.",
+  "synonyms": [
+   "hepato-"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "renal",
+  "definition": "Relating to the kidney. Renal artery, renal vein, renal cortex.",
+  "synonyms": [
+   "nephro-",
+   "nephric"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "splenic",
+  "definition": "Relating to the spleen. The splenic vein runs behind the pancreas and joins the superior mesenteric vein to form the portal vein.",
+  "synonyms": [
+   "spleno-"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "pancreatic",
+  "definition": "Relating to the pancreas, the gland lying across the upper abdomen behind the stomach that produces digestive enzymes and insulin. Its head sits in the C-loop of the duodenum and its tail reaches the spleen.",
+  "synonyms": [
+   "pancreas"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "biliary",
+  "definition": "Relating to bile, the bile ducts, or the gallbladder. The biliary tree is the branching system of ducts that carries bile from the liver to the duodenum.",
+  "synonyms": [
+   "biliary tree",
+   "biliary system",
+   "bile ducts"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "portal vein",
+  "definition": "The vein that carries nutrient-rich blood from the intestines and spleen into the liver. It is formed by the union of the splenic and superior mesenteric veins and has bright echogenic walls on ultrasound. Normal diameter is about 13 millimeters or less.",
+  "synonyms": [
+   "main portal vein",
+   "MPV",
+   "portal venous system"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "hepatic veins",
+  "definition": "The three veins (right, middle, left) that drain blood from the liver into the inferior vena cava. They have thin, nearly invisible walls and are used as landmarks dividing the liver into segments.",
+  "synonyms": [
+   "hepatic vein",
+   "right hepatic vein",
+   "middle hepatic vein",
+   "left hepatic vein"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "inferior vena cava",
+  "definition": "The large vein that returns blood from the lower body to the right atrium of the heart. It runs to the right of the aorta and changes size with breathing.",
+  "synonyms": [
+   "IVC",
+   "vena cava"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "abdominal aorta",
+  "definition": "The main artery of the abdomen, running down the left of the spine from the diaphragm to its bifurcation into the iliac arteries. Normal diameter is less than 3 centimeters.",
+  "synonyms": [
+   "aorta",
+   "aortic"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "common bile duct",
+  "definition": "The duct that carries bile from the liver and gallbladder to the duodenum, formed where the cystic duct joins the common hepatic duct. It runs in front of the portal vein. Normal diameter is about 6 millimeters or less, slightly larger in older adults.",
+  "synonyms": [
+   "CBD",
+   "common duct"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "common hepatic duct",
+  "definition": "The duct formed by the right and left hepatic ducts as they leave the liver, before the cystic duct joins it to form the common bile duct.",
+  "synonyms": [
+   "CHD"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "cystic duct",
+  "definition": "The short duct that connects the gallbladder neck to the common bile duct. It contains spiral folds and is often hard to see on ultrasound.",
+  "synonyms": [],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "gallbladder",
+  "definition": "A pear-shaped sac on the undersurface of the liver that stores and concentrates bile. When fasting it is anechoic with a thin wall of 3 millimeters or less.",
+  "synonyms": [
+   "GB",
+   "gall bladder"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "porta hepatis",
+  "definition": "The fissure on the undersurface of the liver where the portal vein and hepatic artery enter and the bile ducts leave. These three structures together are the portal triad.",
+  "synonyms": [
+   "liver hilum",
+   "hepatic hilum"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "portal triad",
+  "definition": "The grouping of a portal vein branch, hepatic artery branch, and bile duct that travel together through the liver, surrounded by echogenic connective tissue.",
+  "synonyms": [
+   "portal triads"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "Morison's pouch",
+  "definition": "The potential space between the liver and the right kidney. It is one of the first places free fluid collects when the patient is lying down, so it is checked in trauma and ascites.",
+  "synonyms": [
+   "hepatorenal recess",
+   "hepatorenal space",
+   "Morison pouch",
+   "hepatorenal fossa"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "retroperitoneum",
+  "definition": "The space behind the peritoneal lining of the abdomen. It contains the kidneys, adrenal glands, pancreas, aorta, and inferior vena cava.",
+  "synonyms": [
+   "retroperitoneal",
+   "retroperitoneal space"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "peritoneum",
+  "definition": "The thin membrane that lines the abdominal cavity and covers most of its organs. Fluid collecting inside it is called ascites.",
+  "synonyms": [
+   "peritoneal",
+   "peritoneal cavity"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "mesentery",
+  "definition": "A fold of peritoneum that anchors the intestine to the back wall of the abdomen and carries its blood vessels, lymphatics, and nerves.",
+  "synonyms": [
+   "mesenteric"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "ligamentum teres",
+  "definition": "The fibrous remnant of the fetal umbilical vein. On ultrasound it appears as a bright, echogenic focus in the left lobe of the liver and divides the medial and lateral segments.",
+  "synonyms": [
+   "round ligament",
+   "ligamentum teres hepatis"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "ligamentum venosum",
+  "definition": "The remnant of the fetal ductus venosus. It appears as an echogenic line separating the caudate lobe from the left lobe of the liver.",
+  "synonyms": [],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "caudate lobe",
+  "definition": "The small posterior lobe of the liver, lying between the inferior vena cava and the ligamentum venosum. It has its own venous drainage and may be spared or enlarged in cirrhosis.",
+  "synonyms": [
+   "caudate"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "duodenum",
+  "definition": "The first, C-shaped part of the small intestine, wrapping around the head of the pancreas. Gas in the duodenum often shadows over the pancreatic head and common bile duct.",
+  "synonyms": [
+   "duodenal"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "celiac axis",
+  "definition": "The first major branch off the front of the abdominal aorta, just below the diaphragm. It divides into the common hepatic, splenic, and left gastric arteries, forming a seagull shape on transverse images.",
+  "synonyms": [
+   "celiac trunk",
+   "celiac artery",
+   "CA"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "superior mesenteric artery",
+  "definition": "The second anterior branch of the abdominal aorta, supplying most of the small intestine. It runs parallel to and in front of the aorta and is a key landmark for the pancreas.",
+  "synonyms": [
+   "SMA"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "ureter",
+  "definition": "The muscular tube that carries urine from each kidney to the bladder. Normally too thin to see; a dilated ureter suggests obstruction. Ureteral jets are seen entering the bladder on color Doppler.",
+  "synonyms": [
+   "ureteral",
+   "ureteric"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "urinary bladder",
+  "definition": "The muscular reservoir that stores urine. When full it is anechoic and serves as the acoustic window for the pelvis.",
+  "synonyms": [
+   "bladder",
+   "vesical"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "thyroid",
+  "definition": "The butterfly-shaped endocrine gland in the front of the neck with two lobes joined by the isthmus. It is normally homogeneous and slightly brighter than the neck muscles.",
+  "synonyms": [
+   "thyroid gland"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "adrenal gland",
+  "definition": "A small endocrine gland sitting on top of each kidney that produces stress hormones. Hard to see in adults but easily seen in newborns.",
+  "synonyms": [
+   "adrenal",
+   "suprarenal gland"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "lumen",
+  "definition": "The hollow inside space of a tubular structure such as a blood vessel, duct, or bowel loop.",
+  "synonyms": [
+   "luminal",
+   "intraluminal"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "intima",
+  "definition": "The innermost layer of a blood vessel wall. The intima-media thickness of the carotid artery is measured as a marker of early atherosclerosis.",
+  "synonyms": [
+   "intimal",
+   "intima-media thickness",
+   "IMT"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "capsule",
+  "definition": "The thin fibrous covering of an organ. The liver's capsule (Glisson's capsule) appears as a smooth bright line; a nodular capsule suggests cirrhosis.",
+  "synonyms": [
+   "capsular",
+   "Glisson's capsule"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "diaphragm",
+  "definition": "The dome-shaped muscle separating the chest from the abdomen. On ultrasound it is a bright curved line above the liver and spleen, and it acts as a strong reflector that causes mirror-image artifact.",
+  "synonyms": [
+   "diaphragmatic",
+   "hemidiaphragm"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "lesion",
+  "definition": "A general word for any abnormal area of tissue, such as a mass, cyst, scar, or area of damage. It does not say whether the abnormality is benign or malignant.",
+  "synonyms": [
+   "lesions",
+   "focal lesion"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "mass",
+  "definition": "A localized lump or growth of tissue. Masses are described as solid, cystic, or complex, and by their size, margins, and echogenicity.",
+  "synonyms": [
+   "masses",
+   "space-occupying lesion",
+   "SOL"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "cyst",
+  "definition": "A fluid-filled sac. A simple cyst is anechoic, round or oval, with a thin smooth wall and posterior acoustic enhancement, and is almost always benign.",
+  "synonyms": [
+   "cystic",
+   "simple cyst",
+   "cysts"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "complex cyst",
+  "definition": "A cyst that contains internal echoes, septations, debris, thick walls, or solid parts. It needs more evaluation because it may be a hemorrhagic cyst, abscess, or tumor.",
+  "synonyms": [
+   "complex mass",
+   "complicated cyst",
+   "complex cystic mass"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "septation",
+  "definition": "A thin wall that divides a cyst or fluid collection into compartments. Thick or irregular septations are more concerning than thin ones.",
+  "synonyms": [
+   "septum",
+   "septa",
+   "septated",
+   "septations"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "solid",
+  "definition": "Made of tissue rather than fluid. A solid structure shows internal echoes and lacks posterior enhancement; solid masses need more evaluation than simple cysts.",
+  "synonyms": [
+   "solid mass",
+   "solid lesion"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "neoplasm",
+  "definition": "A new, abnormal growth of cells that serves no purpose. Neoplasms may be benign (non-cancerous) or malignant (cancerous).",
+  "synonyms": [
+   "tumor",
+   "tumour",
+   "neoplastic",
+   "growth"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "benign",
+  "definition": "Not cancerous. A benign growth does not invade surrounding tissue or spread to other organs, although it can still cause problems by its size.",
+  "synonyms": [
+   "non-malignant",
+   "noncancerous"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "malignant",
+  "definition": "Cancerous. A malignant growth invades surrounding tissue and can spread (metastasize) to other parts of the body.",
+  "synonyms": [
+   "malignancy",
+   "cancerous",
+   "carcinoma"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "metastasis",
+  "definition": "The spread of cancer from its original site to another organ. Liver metastases often appear as multiple masses of varied echogenicity, sometimes with a target or bull's-eye pattern.",
+  "synonyms": [
+   "metastases",
+   "metastatic",
+   "mets",
+   "secondary"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "hepatomegaly",
+  "definition": "Enlargement of the liver, generally when its length at the midclavicular line exceeds about 15 to 16 centimeters. Causes include fatty liver, hepatitis, congestion, and tumors.",
+  "synonyms": [
+   "enlarged liver"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "splenomegaly",
+  "definition": "Enlargement of the spleen, generally when its length exceeds about 12 to 13 centimeters. Common causes are portal hypertension, infection, and blood disorders.",
+  "synonyms": [
+   "enlarged spleen"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "cirrhosis",
+  "definition": "Chronic scarring of the liver with nodules of regenerating tissue, usually from alcohol or hepatitis. On ultrasound the liver becomes small, coarse, and nodular, often with ascites, splenomegaly, and portal hypertension.",
+  "synonyms": [
+   "cirrhotic"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "hepatic steatosis",
+  "definition": "Accumulation of fat in the liver cells. The liver appears diffusely bright (hyperechoic) with poor penetration and blurred vessel walls; it may be patchy (focal fatty infiltration or sparing).",
+  "synonyms": [
+   "fatty liver",
+   "steatosis",
+   "fatty infiltration"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "hepatitis",
+  "definition": "Inflammation of the liver, most often from a virus. In acute hepatitis the liver may be enlarged and hypoechoic with unusually bright portal triad walls, a pattern called starry sky.",
+  "synonyms": [
+   "acute hepatitis",
+   "chronic hepatitis"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "portal hypertension",
+  "definition": "Abnormally high pressure in the portal venous system, usually caused by cirrhosis. Signs include a dilated portal vein, slow or reversed (hepatofugal) flow, splenomegaly, ascites, and collateral veins (varices).",
+  "synonyms": [
+   "portal venous hypertension"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "ascites",
+  "definition": "Free fluid in the peritoneal cavity. It appears anechoic and collects in the lowest (dependent) spaces such as Morison's pouch and the pelvis; echoes within it suggest blood, pus, or malignancy.",
+  "synonyms": [
+   "free fluid",
+   "peritoneal fluid",
+   "ascitic fluid"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "cholelithiasis",
+  "definition": "Stones in the gallbladder. The classic appearance is a bright echogenic focus that moves with position changes and casts a clean posterior acoustic shadow.",
+  "synonyms": [
+   "gallstones",
+   "gallstone",
+   "gallbladder stones",
+   "biliary calculi"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "cholecystitis",
+  "definition": "Inflammation of the gallbladder, usually caused by a stone blocking the cystic duct. Ultrasound signs are stones, a thickened wall over 3 millimeters, fluid around the gallbladder, and a positive sonographic Murphy sign.",
+  "synonyms": [
+   "acute cholecystitis",
+   "gallbladder inflammation"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "sonographic Murphy sign",
+  "definition": "Maximal tenderness when the transducer presses directly over the gallbladder. When present together with gallstones it strongly supports acute cholecystitis.",
+  "synonyms": [
+   "Murphy's sign",
+   "Murphy sign"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "choledocholithiasis",
+  "definition": "A stone within the common bile duct. It appears as an echogenic focus with shadowing inside the duct, often with dilatation of the ducts above it.",
+  "synonyms": [
+   "CBD stone",
+   "bile duct stone",
+   "ductal stone"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "biliary dilatation",
+  "definition": "Widening of the bile ducts, usually because something (a stone, tumor, or stricture) is blocking bile flow downstream. Dilated ducts run next to portal vein branches, producing the parallel channel or too many tubes sign.",
+  "synonyms": [
+   "ductal dilatation",
+   "biliary obstruction",
+   "dilated bile ducts",
+   "biliary dilation"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "sludge",
+  "definition": "Thick, concentrated bile that appears as low-level echoes layering in the dependent part of the gallbladder without casting a shadow. It moves slowly with position changes.",
+  "synonyms": [
+   "biliary sludge",
+   "gallbladder sludge",
+   "echogenic bile"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "hydronephrosis",
+  "definition": "Swelling of the kidney's collecting system (calyces and pelvis) because urine cannot drain, usually from a stone, stricture, or enlarged prostate. It appears as branching anechoic spaces in the renal sinus. Graded mild, moderate, or severe.",
+  "synonyms": [
+   "pelvicaliectasis",
+   "pelviectasis",
+   "caliectasis",
+   "dilated collecting system"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "nephrolithiasis",
+  "definition": "Stones in the kidney. They appear as bright echogenic foci with posterior shadowing and often a twinkling artifact on color Doppler. Stones may cause hydronephrosis if they block urine flow.",
+  "synonyms": [
+   "kidney stones",
+   "renal calculi",
+   "renal stone",
+   "urolithiasis",
+   "renal calculus"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "calculus",
+  "definition": "A stone formed by mineral deposits inside an organ or duct, such as a gallstone or kidney stone. On ultrasound a calculus is echogenic and casts an acoustic shadow.",
+  "synonyms": [
+   "calculi",
+   "stone",
+   "stones",
+   "calcified stone"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "pyelonephritis",
+  "definition": "Bacterial infection of the kidney. Ultrasound is often normal but may show an enlarged, swollen kidney, patchy areas of altered echogenicity, or an abscess.",
+  "synonyms": [
+   "kidney infection"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "renal cell carcinoma",
+  "definition": "The most common malignant tumor of the adult kidney. It is usually a solid mass of variable echogenicity that distorts the kidney outline and may extend into the renal vein and IVC.",
+  "synonyms": [
+   "RCC",
+   "hypernephroma",
+   "kidney cancer"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "angiomyolipoma",
+  "definition": "A benign kidney tumor made of fat, muscle, and blood vessels. Because of its fat it appears as a very bright, well-defined mass in the renal cortex.",
+  "synonyms": [
+   "AML",
+   "renal angiomyolipoma"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "pancreatitis",
+  "definition": "Inflammation of the pancreas, often from gallstones or alcohol. Acutely the gland is enlarged and hypoechoic with fluid around it; chronically it is small, bright, and calcified with a dilated duct.",
+  "synonyms": [
+   "acute pancreatitis",
+   "chronic pancreatitis"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "pseudocyst",
+  "definition": "A collection of pancreatic fluid walled off by fibrous tissue rather than a true lining, usually forming weeks after pancreatitis. It appears as a well-defined cystic mass near the pancreas.",
+  "synonyms": [
+   "pancreatic pseudocyst"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "abscess",
+  "definition": "A localized collection of pus caused by infection. On ultrasound it is a complex fluid collection with internal echoes, an irregular wall, and sometimes bright gas bubbles with ring-down artifact.",
+  "synonyms": [
+   "abscesses",
+   "pus collection"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "hematoma",
+  "definition": "A localized collection of blood outside the blood vessels, usually from injury or surgery. Its appearance changes with age: fresh blood is anechoic, clotting blood becomes complex and echogenic, and an old hematoma may become cystic again.",
+  "synonyms": [
+   "haematoma",
+   "blood collection"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "effusion",
+  "definition": "An abnormal collection of fluid in a body cavity, such as a pleural effusion around the lung or a pericardial effusion around the heart.",
+  "synonyms": [
+   "fluid collection"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "edema",
+  "definition": "Swelling caused by excess fluid trapped in body tissues. Edematous tissue often looks thickened and hypoechoic, and may show a cobblestone pattern in the skin.",
+  "synonyms": [
+   "oedema",
+   "edematous",
+   "swelling"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "calcification",
+  "definition": "A deposit of calcium in tissue, often from old inflammation, injury, or a tumor. It appears as a bright echogenic focus, usually with posterior shadowing.",
+  "synonyms": [
+   "calcified",
+   "calcifications",
+   "calcific"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "thrombosis",
+  "definition": "Formation of a blood clot (thrombus) inside a blood vessel. On ultrasound the vein does not compress, the lumen contains echoes, and color flow is absent or wraps around the clot.",
+  "synonyms": [
+   "thrombus",
+   "thrombi",
+   "clot",
+   "blood clot",
+   "thrombosed"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "deep vein thrombosis",
+  "definition": "A blood clot in a deep vein, most often of the leg. The key ultrasound finding is a vein that cannot be flattened by probe pressure (non-compressible), with absent or reduced flow.",
+  "synonyms": [
+   "DVT",
+   "deep venous thrombosis"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "stenosis",
+  "definition": "Abnormal narrowing of a blood vessel, duct, or valve. In Doppler, a stenosis causes high velocities at the narrowing and turbulence just beyond it.",
+  "synonyms": [
+   "stenotic",
+   "stenoses",
+   "narrowing"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "occlusion",
+  "definition": "Complete blockage of a vessel or duct so nothing passes through. An occluded artery shows no color or spectral flow within it.",
+  "synonyms": [
+   "occluded",
+   "occlusive",
+   "blockage",
+   "obstruction"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "aneurysm",
+  "definition": "A focal bulging of an artery to more than one and a half times its normal diameter because of a weakened wall. An abdominal aortic aneurysm is an aorta measuring 3 centimeters or more; large ones risk rupture.",
+  "synonyms": [
+   "aneurysmal",
+   "AAA",
+   "abdominal aortic aneurysm",
+   "aneurysmal dilatation"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "plaque",
+  "definition": "A deposit of fat, fibrous tissue, and sometimes calcium on the inner wall of an artery. Plaque narrows the lumen and is described by its echogenicity, surface, and whether it is calcified.",
+  "synonyms": [
+   "atherosclerotic plaque",
+   "atheroma"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "atherosclerosis",
+  "definition": "The buildup of plaque inside artery walls, which thickens and stiffens them and narrows the lumen. It is the main cause of carotid and peripheral arterial disease.",
+  "synonyms": [
+   "atherosclerotic",
+   "arteriosclerosis",
+   "hardening of the arteries"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "hemangioma",
+  "definition": "The most common benign tumor of the liver, made of blood-filled spaces. It typically appears as a small, round, well-defined, uniformly hyperechoic mass, often with slight posterior enhancement.",
+  "synonyms": [
+   "cavernous hemangioma",
+   "haemangioma",
+   "hepatic hemangioma"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "hepatocellular carcinoma",
+  "definition": "The most common primary cancer of the liver, usually developing in a cirrhotic liver. Its appearance varies: a single mass, multiple nodules, or diffuse infiltration, often invading the portal or hepatic veins.",
+  "synonyms": [
+   "HCC",
+   "hepatoma",
+   "primary liver cancer"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "polyp",
+  "definition": "A growth that projects from the lining of a hollow organ. A gallbladder polyp is an echogenic focus attached to the wall that does not move with position and does not cast a shadow.",
+  "synonyms": [
+   "polyps",
+   "polypoid"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "adenoma",
+  "definition": "A benign tumor arising from glandular tissue, such as a thyroid adenoma or hepatic adenoma. Hepatic adenomas are associated with oral contraceptives and can bleed.",
+  "synonyms": [
+   "adenomas",
+   "adenomatous"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "nodule",
+  "definition": "A small, rounded lump of tissue, often used for thyroid lumps or the bumps of a cirrhotic liver. Nodules are described by size, echogenicity, margins, and calcifications.",
+  "synonyms": [
+   "nodules",
+   "nodular",
+   "nodularity"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "goiter",
+  "definition": "Enlargement of the thyroid gland, which may be diffuse or made up of many nodules (multinodular goiter).",
+  "synonyms": [
+   "goitre",
+   "thyromegaly",
+   "enlarged thyroid"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "torsion",
+  "definition": "Twisting of an organ on the stalk that carries its blood vessels, cutting off its blood supply. Ovarian or testicular torsion is an emergency; the organ is enlarged and flow is reduced or absent.",
+  "synonyms": [
+   "ovarian torsion",
+   "testicular torsion",
+   "twisted"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "appendicitis",
+  "definition": "Inflammation of the appendix. On ultrasound it is a blind-ending, non-compressible tube more than 6 millimeters in diameter, often with surrounding bright fat and sometimes an appendicolith.",
+  "synonyms": [
+   "acute appendicitis",
+   "inflamed appendix"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "pleural effusion",
+  "definition": "Fluid in the pleural space between the lung and chest wall. It appears as an anechoic area above the diaphragm, often with the collapsed lung floating in it.",
+  "synonyms": [
+   "pleural fluid"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "varices",
+  "definition": "Dilated, twisting veins that form as detours when normal flow is blocked, such as the esophageal and splenic varices of portal hypertension. They appear as tortuous anechoic channels with venous flow.",
+  "synonyms": [
+   "varix",
+   "varicose",
+   "collaterals",
+   "collateral veins"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "infarct",
+  "definition": "An area of dead tissue caused by loss of its blood supply. A splenic or renal infarct appears as a wedge-shaped hypoechoic area with its base at the organ surface and no flow inside.",
+  "synonyms": [
+   "infarction",
+   "infarcted"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "ischemia",
+  "definition": "Insufficient blood supply to a tissue, so it is starved of oxygen. Prolonged ischemia leads to infarction.",
+  "synonyms": [
+   "ischaemia",
+   "ischemic"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "necrosis",
+  "definition": "Death of cells or tissue. Necrotic areas within a tumor often appear as irregular fluid spaces.",
+  "synonyms": [
+   "necrotic",
+   "necrotizing"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "inflammation",
+  "definition": "The body's response to injury or infection, with swelling, redness, heat, and pain. The suffix -itis means inflammation, as in hepatitis or cholecystitis. Inflamed tissue is often enlarged, hypoechoic, and has increased blood flow.",
+  "synonyms": [
+   "inflamed",
+   "inflammatory",
+   "-itis"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "fibrosis",
+  "definition": "The formation of excess fibrous (scar) tissue in an organ, usually from long-standing injury or inflammation. Fibrotic tissue is typically echogenic and stiff.",
+  "synonyms": [
+   "fibrotic",
+   "fibrous",
+   "scarring"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "sequela",
+  "definition": "A condition that is the consequence of an earlier disease or injury. For example, portal hypertension is a sequela of cirrhosis.",
+  "synonyms": [
+   "sequelae"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "hyperplasia",
+  "definition": "An increase in the number of cells in a tissue, making it larger. Focal nodular hyperplasia is a benign liver mass with a central scar.",
+  "synonyms": [
+   "hyperplastic",
+   "focal nodular hyperplasia",
+   "FNH"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "atrophy",
+  "definition": "Wasting away or shrinking of an organ or tissue. An atrophic kidney is small with a thin, bright cortex.",
+  "synonyms": [
+   "atrophic",
+   "atrophied"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "etiology",
+  "definition": "The cause or origin of a disease. Saying the etiology is unknown means the cause has not been found.",
+  "synonyms": [
+   "aetiology",
+   "etiologic",
+   "cause"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "idiopathic",
+  "definition": "Of unknown cause. An idiopathic condition arises on its own without an identifiable reason.",
+  "synonyms": [],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "acute",
+  "definition": "Starting suddenly and lasting a short time, usually with marked symptoms. The opposite of chronic.",
+  "synonyms": [
+   "acutely"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "chronic",
+  "definition": "Lasting a long time or recurring over months to years. Chronic disease often produces scarring (fibrosis) and shrinkage of an organ.",
+  "synonyms": [
+   "chronically",
+   "long-standing"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "pathognomonic",
+  "definition": "A sign or finding so characteristic of one disease that it alone establishes the diagnosis. Few ultrasound findings are truly pathognomonic.",
+  "synonyms": [],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "differential diagnosis",
+  "definition": "The list of conditions that could explain a patient's findings. The sonographer's description helps the physician narrow the differential.",
+  "synonyms": [
+   "differential",
+   "DDx",
+   "differentials"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "prognosis",
+  "definition": "The expected course and outcome of a disease, such as the likelihood of recovery.",
+  "synonyms": [
+   "prognostic"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "asymptomatic",
+  "definition": "Without symptoms. Many findings such as simple cysts and small hemangiomas are asymptomatic and discovered by chance.",
+  "synonyms": [
+   "symptomless"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "palpable",
+  "definition": "Able to be felt by touch during a physical examination. A palpable mass is a common reason for an ultrasound request.",
+  "synonyms": [
+   "palpation",
+   "palpate"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "jaundice",
+  "definition": "Yellowing of the skin and eyes caused by a high level of bilirubin in the blood. Ultrasound is used to tell whether the cause is a blocked bile duct (obstructive) or liver disease (non-obstructive).",
+  "synonyms": [
+   "icterus",
+   "icteric",
+   "jaundiced"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "hematuria",
+  "definition": "Blood in the urine. It prompts ultrasound of the kidneys and bladder to look for stones, tumors, or infection.",
+  "synonyms": [
+   "haematuria",
+   "blood in urine"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "dyspnea",
+  "definition": "Difficult or labored breathing; shortness of breath.",
+  "synonyms": [
+   "dyspnoea",
+   "shortness of breath",
+   "dyspneic"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "bilirubin",
+  "definition": "A yellow pigment produced when red blood cells are broken down; the liver removes it into bile. High bilirubin causes jaundice and suggests liver disease or a blocked bile duct.",
+  "synonyms": [
+   "hyperbilirubinemia"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "serum",
+  "definition": "The liquid part of blood after clotting. Serum levels refer to blood test results, such as serum bilirubin or liver enzymes, that are correlated with ultrasound findings.",
+  "synonyms": [
+   "serum level",
+   "serum levels"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "incidental finding",
+  "definition": "An abnormality discovered by chance while imaging for an unrelated reason. Simple renal cysts and liver hemangiomas are common incidental findings.",
+  "synonyms": [
+   "incidental",
+   "incidentaloma",
+   "incidentally"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "clinical correlation",
+  "definition": "Comparing the imaging findings with the patient's symptoms, examination, history, and lab results before deciding what they mean.",
+  "synonyms": [
+   "correlate clinically",
+   "clinically correlate"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "contraindication",
+  "definition": "A condition or factor that makes a particular test or treatment inadvisable because it could harm the patient.",
+  "synonyms": [
+   "contraindicated"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "invasive",
+  "definition": "Involving entry into the body, such as with a needle, catheter, or surgery. Ultrasound is non-invasive, which is one of its main advantages.",
+  "synonyms": [
+   "non-invasive",
+   "noninvasive",
+   "minimally invasive"
+  ],
+  "source": "medical_dictionary",
+  "category": "general-clinical"
+ },
+ {
+  "term": "right upper quadrant",
+  "definition": "The upper right region of the abdomen, containing the liver, gallbladder, right kidney, duodenum, and head of the pancreas. RUQ pain is a common reason for an abdominal ultrasound.",
+  "synonyms": [
+   "RUQ"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "epigastric",
+  "definition": "Relating to the upper central area of the abdomen just below the breastbone, over the stomach and pancreas.",
+  "synonyms": [
+   "epigastrium"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "supine",
+  "definition": "Lying flat on the back, face up. The standard starting position for abdominal scanning.",
+  "synonyms": [
+   "lying on the back"
+  ],
+  "source": "medical_dictionary",
+  "category": "technique"
+ },
+ {
+  "term": "decubitus",
+  "definition": "Lying on one side. Left lateral decubitus means lying on the left side; it lets the liver and gallbladder fall toward the midline and moves bowel gas away, improving the view.",
+  "synonyms": [
+   "lateral decubitus",
+   "left lateral decubitus",
+   "LLD",
+   "right lateral decubitus",
+   "RLD"
+  ],
+  "source": "medical_dictionary",
+  "category": "technique"
+ },
+ {
+  "term": "prone",
+  "definition": "Lying face down on the stomach. Used for scanning the kidneys from the back.",
+  "synonyms": [
+   "lying face down"
+  ],
+  "source": "medical_dictionary",
+  "category": "technique"
+ },
+ {
+  "term": "anterior",
+  "definition": "Toward the front of the body. On a standard ultrasound image, anterior is at the top of the screen, nearest the transducer.",
+  "synonyms": [
+   "ventral",
+   "anteriorly"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "posterior",
+  "definition": "Toward the back of the body. On a standard ultrasound image, posterior is at the bottom of the screen, farthest from the transducer.",
+  "synonyms": [
+   "dorsal",
+   "posteriorly"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "superior",
+  "definition": "Toward the head, or above another structure. On a longitudinal (sagittal) image, superior is on the left side of the screen.",
+  "synonyms": [
+   "cranial",
+   "cephalad",
+   "cephalic",
+   "superiorly"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "inferior",
+  "definition": "Toward the feet, or below another structure. On a longitudinal (sagittal) image, inferior is on the right side of the screen.",
+  "synonyms": [
+   "caudal",
+   "caudad",
+   "inferiorly"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "medial",
+  "definition": "Toward the midline of the body.",
+  "synonyms": [
+   "medially"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "lateral",
+  "definition": "Away from the midline of the body, toward the side.",
+  "synonyms": [
+   "laterally"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "proximal",
+  "definition": "Closer to the point of origin or attachment; for a vessel, closer to the heart. The proximal common carotid artery is near its origin.",
+  "synonyms": [
+   "proximally"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "distal",
+  "definition": "Farther from the point of origin or attachment; for a vessel, farther from the heart. Flow distal to a stenosis is turbulent.",
+  "synonyms": [
+   "distally"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "ipsilateral",
+  "definition": "On the same side of the body as another structure or finding.",
+  "synonyms": [],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "contralateral",
+  "definition": "On the opposite side of the body from another structure or finding.",
+  "synonyms": [],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "bilateral",
+  "definition": "On both sides of the body. Bilateral hydronephrosis means both kidneys are affected.",
+  "synonyms": [
+   "bilaterally"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "sagittal plane",
+  "definition": "A vertical plane that divides the body into right and left parts. A sagittal (longitudinal) scan shows superior to the left of the screen and inferior to the right.",
+  "synonyms": [
+   "sagittal",
+   "longitudinal",
+   "longitudinal plane",
+   "long axis"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "transverse plane",
+  "definition": "A horizontal plane that divides the body into upper and lower parts. A transverse scan shows the patient's right on the left side of the screen, as if looking up from the feet.",
+  "synonyms": [
+   "transverse",
+   "axial",
+   "axial plane",
+   "short axis"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "coronal plane",
+  "definition": "A vertical plane that divides the body into front and back parts. Coronal scans are often taken from the patient's side, for example to image the kidneys and spleen.",
+  "synonyms": [
+   "coronal"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "superficial",
+  "definition": "Close to the surface of the body. Superficial structures are imaged with high-frequency linear transducers.",
+  "synonyms": [
+   "superficially"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "deep",
+  "definition": "Far from the surface of the body, or farther from the transducer. Deep to means behind or beyond a structure as seen from the probe.",
+  "synonyms": [
+   "deep to"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "dependent",
+  "definition": "The lowest position with respect to gravity in the patient's current position. Stones, sludge, and free fluid settle in the dependent part of a structure and move when the patient turns.",
+  "synonyms": [
+   "dependent portion",
+   "gravity-dependent"
+  ],
+  "source": "medical_dictionary",
+  "category": "directional"
+ },
+ {
+  "term": "gestational sac",
+  "definition": "The fluid-filled sac that holds the early pregnancy. It is the first sign of pregnancy on ultrasound, seen in the uterus at about 5 weeks as a small round anechoic structure with an echogenic rim.",
+  "synonyms": [
+   "GS",
+   "intrauterine gestational sac"
+  ],
+  "source": "medical_dictionary",
+  "category": "obstetrics"
+ },
+ {
+  "term": "yolk sac",
+  "definition": "A small round structure inside the gestational sac that nourishes the early embryo. Seeing it confirms a true intrauterine pregnancy; it appears at about 5 and a half weeks.",
+  "synonyms": [
+   "YS",
+   "secondary yolk sac"
+  ],
+  "source": "medical_dictionary",
+  "category": "obstetrics"
+ },
+ {
+  "term": "crown-rump length",
+  "definition": "The length of the embryo or fetus from the top of the head to the bottom of the rump, not including the legs. It is the most accurate way to date a pregnancy in the first trimester.",
+  "synonyms": [
+   "CRL",
+   "crown rump length"
+  ],
+  "source": "medical_dictionary",
+  "category": "obstetrics"
+ },
+ {
+  "term": "biparietal diameter",
+  "definition": "The width of the fetal head measured from one parietal bone to the other on a transverse image through the thalami. Used with other measurements to estimate gestational age after the first trimester.",
+  "synonyms": [
+   "BPD"
+  ],
+  "source": "medical_dictionary",
+  "category": "obstetrics"
+ },
+ {
+  "term": "nuchal translucency",
+  "definition": "The thin layer of fluid at the back of the fetal neck measured between 11 and 14 weeks. A thickened nuchal translucency increases the risk of chromosomal abnormalities such as Down syndrome and of heart defects.",
+  "synonyms": [
+   "NT",
+   "nuchal thickness"
+  ],
+  "source": "medical_dictionary",
+  "category": "obstetrics"
+ },
+ {
+  "term": "placenta previa",
+  "definition": "A placenta that covers or lies very close to the internal opening of the cervix. It can cause painless bleeding in late pregnancy and may require cesarean delivery.",
+  "synonyms": [
+   "previa",
+   "low-lying placenta"
+  ],
+  "source": "medical_dictionary",
+  "category": "obstetrics"
+ },
+ {
+  "term": "oligohydramnios",
+  "definition": "Too little amniotic fluid around the fetus, often from ruptured membranes, placental problems, or fetal kidney abnormalities. Defined by a low amniotic fluid index or a deepest pocket under 2 centimeters.",
+  "synonyms": [
+   "low amniotic fluid",
+   "oligo"
+  ],
+  "source": "medical_dictionary",
+  "category": "obstetrics"
+ },
+ {
+  "term": "polyhydramnios",
+  "definition": "Too much amniotic fluid around the fetus, associated with diabetes, fetal swallowing problems, and other anomalies. Defined by a high amniotic fluid index or a deepest pocket over 8 centimeters.",
+  "synonyms": [
+   "hydramnios",
+   "excess amniotic fluid",
+   "poly"
+  ],
+  "source": "medical_dictionary",
+  "category": "obstetrics"
+ },
+ {
+  "term": "amniotic fluid index",
+  "definition": "A measure of amniotic fluid volume found by adding the deepest vertical fluid pocket in each of the four quadrants of the uterus. Normal is roughly 5 to 24 centimeters.",
+  "synonyms": [
+   "AFI"
+  ],
+  "source": "medical_dictionary",
+  "category": "obstetrics"
+ },
+ {
+  "term": "ectopic pregnancy",
+  "definition": "A pregnancy implanted outside the uterine cavity, most often in a fallopian tube. It is an emergency because the tube can rupture. Ultrasound shows an empty uterus with an adnexal mass and sometimes free fluid.",
+  "synonyms": [
+   "ectopic",
+   "tubal pregnancy",
+   "extrauterine pregnancy"
+  ],
+  "source": "medical_dictionary",
+  "category": "obstetrics"
+ },
+ {
+  "term": "fundus",
+  "definition": "The rounded top or base of a hollow organ. The uterine fundus is the top of the uterus above the openings of the tubes; the gallbladder fundus is its rounded far end.",
+  "synonyms": [
+   "fundal",
+   "uterine fundus",
+   "gallbladder fundus"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "endometrium",
+  "definition": "The inner lining of the uterus, seen as a central echogenic stripe. Its thickness and appearance change through the menstrual cycle and are measured in gynecologic ultrasound.",
+  "synonyms": [
+   "endometrial",
+   "endometrial stripe",
+   "endometrial thickness"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "myometrium",
+  "definition": "The thick muscular wall of the uterus, which appears as homogeneous medium-level echoes around the endometrium.",
+  "synonyms": [
+   "myometrial"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "cervix",
+  "definition": "The lower, narrow part of the uterus that opens into the vagina. Its length is measured in pregnancy to assess the risk of preterm birth.",
+  "synonyms": [
+   "cervical",
+   "uterine cervix"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "adnexa",
+  "definition": "The structures next to the uterus: the ovaries, fallopian tubes, and supporting ligaments. An adnexal mass is a lump in this region.",
+  "synonyms": [
+   "adnexal",
+   "adnexae"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "corpus luteum",
+  "definition": "The structure that remains in the ovary after an egg is released; it produces progesterone to support early pregnancy. It often appears as a thick-walled cyst with a ring of color flow around it.",
+  "synonyms": [
+   "corpus luteal cyst",
+   "CL"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "follicle",
+  "definition": "A small fluid-filled sac in the ovary that contains a developing egg. Follicles are anechoic; the dominant follicle grows to about 2 centimeters before ovulation.",
+  "synonyms": [
+   "follicles",
+   "follicular",
+   "ovarian follicle",
+   "dominant follicle"
+  ],
+  "source": "medical_dictionary",
+  "category": "anatomy"
+ },
+ {
+  "term": "fibroid",
+  "definition": "A benign tumor of the smooth muscle of the uterus. Fibroids are very common and appear as round, well-defined, often hypoechoic masses that may calcify and cause shadowing.",
+  "synonyms": [
+   "leiomyoma",
+   "myoma",
+   "fibroids",
+   "leiomyomata"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "gestational age",
+  "definition": "The age of a pregnancy counted from the first day of the last menstrual period, about two weeks more than the time since conception. Ultrasound measurements are used to confirm or correct it.",
+  "synonyms": [
+   "GA",
+   "menstrual age",
+   "weeks gestation"
+  ],
+  "source": "medical_dictionary",
+  "category": "obstetrics"
+ },
+ {
+  "term": "transvaginal",
+  "definition": "Scanning with a probe placed inside the vagina. Because the probe is close to the uterus and ovaries, it uses higher frequencies and gives much better detail than scanning through the abdomen.",
+  "synonyms": [
+   "endovaginal",
+   "TV",
+   "TVS",
+   "EV",
+   "TVUS"
+  ],
+  "source": "medical_dictionary",
+  "category": "technique"
+ },
+ {
+  "term": "transabdominal",
+  "definition": "Scanning through the abdominal wall with the probe on the skin, usually with a full bladder as an acoustic window for pelvic organs.",
+  "synonyms": [
+   "TA",
+   "TAS",
+   "TAUS"
+  ],
+  "source": "medical_dictionary",
+  "category": "technique"
+ },
+ {
+  "term": "patent",
+  "definition": "Open and unobstructed, allowing flow. A patent vessel compresses normally and shows color flow filling its lumen.",
+  "synonyms": [
+   "patency"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "pericholecystic fluid",
+  "definition": "Fluid around the outside of the gallbladder. Together with wall thickening and stones it is a sign of acute cholecystitis.",
+  "synonyms": [
+   "pericholecystic"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "twinkling artifact",
+  "definition": "A rapidly changing mix of colors appearing behind a strongly reflecting rough surface such as a kidney stone on color Doppler. It helps detect small stones that cast no clear shadow.",
+  "synonyms": [
+   "twinkle artifact",
+   "twinkling"
+  ],
+  "source": "medical_dictionary",
+  "category": "artifacts"
+ },
+ {
+  "term": "anechoic focus",
+  "definition": "A focus is a small, distinct spot on the image. An echogenic focus is a small bright spot (for example a stone or calcification); an anechoic focus is a small black spot (for example a tiny cyst).",
+  "synonyms": [
+   "echogenic focus",
+   "focus",
+   "foci"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ },
+ {
+  "term": "hypoechoic halo",
+  "definition": "A dark rim surrounding a mass. A hypoechoic halo around a liver lesion raises concern for metastasis or hepatocellular carcinoma; the pattern is also called a target or bull's-eye lesion.",
+  "synonyms": [
+   "halo sign",
+   "halo",
+   "target sign",
+   "bull's-eye"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "wall thickening",
+  "definition": "Increase in the thickness of the wall of a hollow organ such as the gallbladder (over 3 millimeters) or bowel. Causes include inflammation, low protein levels, heart failure, and tumor.",
+  "synonyms": [
+   "thickened wall",
+   "mural thickening"
+  ],
+  "source": "medical_dictionary",
+  "category": "pathology"
+ },
+ {
+  "term": "compressibility",
+  "definition": "Whether a structure flattens when pressed with the transducer. Normal veins and the normal appendix are compressible; a vein containing clot or an inflamed appendix is non-compressible.",
+  "synonyms": [
+   "compressible",
+   "non-compressible",
+   "compression"
+  ],
+  "source": "medical_dictionary",
+  "category": "technique"
+ },
+ {
+  "term": "echogenic foci",
+  "definition": "Multiple small bright spots within a tissue, such as microcalcifications in a thyroid nodule or gas bubbles in an abscess.",
+  "synonyms": [
+   "bright foci",
+   "punctate echogenic foci"
+  ],
+  "source": "medical_dictionary",
+  "category": "physics"
+ }
+]

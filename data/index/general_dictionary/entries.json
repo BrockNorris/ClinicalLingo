@@ -1,0 +1,531 @@
+[
+ {
+  "term": "adjacent",
+  "definition": "Next to or touching something else.",
+  "synonyms": [
+   "adjoining",
+   "neighboring"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "ambiguous",
+  "definition": "Open to more than one interpretation; not clearly one thing or another.",
+  "synonyms": [
+   "unclear"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "circumscribed",
+  "definition": "Having a clear, sharp outline; confined within a definite boundary. A well-circumscribed mass has smooth, distinct edges, which usually favors a benign process.",
+  "synonyms": [
+   "well-circumscribed",
+   "sharply circumscribed"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "coarse",
+  "definition": "Rough or large-grained in texture rather than fine and smooth. A coarse echotexture means the speckle pattern looks chunky, as in cirrhosis.",
+  "synonyms": [
+   "coarsened"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "concomitant",
+  "definition": "Happening at the same time as something else, especially a second condition present alongside the main one.",
+  "synonyms": [
+   "concurrent",
+   "accompanying"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "contiguous",
+  "definition": "Sharing a border; touching along a boundary or in unbroken contact.",
+  "synonyms": [
+   "continuous with"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "correlate",
+  "definition": "To show a connection or relationship between two things. Imaging findings are correlated with symptoms and lab results.",
+  "synonyms": [
+   "correlation",
+   "correlates with"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "delineate",
+  "definition": "To show or mark the outline of something clearly. A well-delineated border is one that can be traced easily.",
+  "synonyms": [
+   "delineated",
+   "delineation"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "demarcated",
+  "definition": "Having a clearly marked boundary that separates it from its surroundings.",
+  "synonyms": [
+   "well-demarcated",
+   "demarcation"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "diffuse",
+  "definition": "Spread throughout an organ or area rather than confined to one spot. Diffuse liver disease affects the whole liver; the opposite is focal.",
+  "synonyms": [
+   "diffusely",
+   "generalized"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "discrete",
+  "definition": "Individually separate and distinct; not blended together. Discrete nodules can be counted one by one.",
+  "synonyms": [
+   "separate",
+   "distinct"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "elongated",
+  "definition": "Longer than it is wide; stretched out in one direction.",
+  "synonyms": [
+   "elongation"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "equivocal",
+  "definition": "Uncertain; could be read either way. An equivocal finding neither confirms nor rules out a diagnosis.",
+  "synonyms": [
+   "indeterminate",
+   "inconclusive"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "exacerbate",
+  "definition": "To make a condition worse or more severe. An exacerbation is a flare-up of a chronic disease.",
+  "synonyms": [
+   "exacerbation",
+   "worsen"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "focal",
+  "definition": "Limited to one specific spot or small area rather than spread throughout. A focal lesion is a single localized abnormality; the opposite is diffuse.",
+  "synonyms": [
+   "focally",
+   "localized"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "ill-defined",
+  "definition": "Having blurry or unclear edges that are hard to trace. Ill-defined margins on a mass are more worrying than sharp ones.",
+  "synonyms": [
+   "poorly defined",
+   "indistinct",
+   "poorly marginated"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "well-defined",
+  "definition": "Having clear, crisp edges that are easy to trace. Well-defined margins generally favor a benign process.",
+  "synonyms": [
+   "sharply defined",
+   "well-marginated",
+   "sharply marginated"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "irregular",
+  "definition": "Not even, smooth, or uniform in shape or outline. Irregular borders on a mass raise concern for malignancy.",
+  "synonyms": [
+   "irregularity"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "lobulated",
+  "definition": "Having a rounded, bumpy outline made of several lobes, like a cloud or cauliflower, rather than a single smooth curve.",
+  "synonyms": [
+   "lobular",
+   "lobulation",
+   "multilobulated"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "manifest",
+  "definition": "To show or display; the way a disease appears or presents. A manifestation is a visible sign of a condition.",
+  "synonyms": [
+   "manifestation",
+   "manifests as"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "marked",
+  "definition": "Very noticeable; of large degree. Marked dilatation means the dilatation is severe. Compare mild and moderate.",
+  "synonyms": [
+   "markedly",
+   "pronounced"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "mild",
+  "definition": "Of small degree; only slightly abnormal. The least severe grade in the scale mild, moderate, marked (or severe).",
+  "synonyms": [
+   "mildly",
+   "slight"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "moderate",
+  "definition": "Of medium degree; between mild and marked or severe.",
+  "synonyms": [
+   "moderately"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "mitigate",
+  "definition": "To make something less severe or harmful.",
+  "synonyms": [
+   "mitigation",
+   "lessen"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "modality",
+  "definition": "A type or method of imaging. Ultrasound, CT, MRI, and X-ray are different imaging modalities.",
+  "synonyms": [
+   "imaging modality",
+   "modalities"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "obscure",
+  "definition": "To hide from view or make hard to see. Bowel gas often obscures the pancreas.",
+  "synonyms": [
+   "obscured",
+   "obscures"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "predispose",
+  "definition": "To make someone more likely to develop a condition. Gallstones predispose a patient to cholecystitis.",
+  "synonyms": [
+   "predisposition",
+   "predisposing factor"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "prominent",
+  "definition": "Standing out; more noticeable or larger than usual, but not necessarily abnormal. A prominent duct is on the large side of normal.",
+  "synonyms": [
+   "prominence"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "subtle",
+  "definition": "Slight and hard to notice; requiring careful attention to see.",
+  "synonyms": [
+   "subtly"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "subsequent",
+  "definition": "Coming after something else in time; following.",
+  "synonyms": [
+   "subsequently",
+   "later"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "tortuous",
+  "definition": "Full of twists and turns; winding. Tortuous vessels are common in older patients and in varices.",
+  "synonyms": [
+   "tortuosity",
+   "twisted"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "viable",
+  "definition": "Able to live or survive. A viable pregnancy has a living embryo with a heartbeat; viable tissue has an intact blood supply.",
+  "synonyms": [
+   "viability",
+   "non-viable",
+   "nonviable"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "visualize",
+  "definition": "To see or display something on the image. 'Not visualized' means the structure could not be seen during the scan.",
+  "synonyms": [
+   "visualized",
+   "visualization",
+   "not visualized"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "comprise",
+  "definition": "To be made up of; to consist of.",
+  "synonyms": [
+   "comprised of",
+   "consists of"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "confluent",
+  "definition": "Flowing or running together into one; merged. Confluent nodules have grown together so individual ones cannot be separated. A confluence of vessels is where they join.",
+  "synonyms": [
+   "confluence",
+   "coalescing"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "conspicuous",
+  "definition": "Easy to see; clearly visible and standing out from the surroundings.",
+  "synonyms": [
+   "conspicuity"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "inherent",
+  "definition": "Existing as a natural, built-in part of something.",
+  "synonyms": [
+   "intrinsic"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "intermittent",
+  "definition": "Stopping and starting at intervals; not continuous.",
+  "synonyms": [
+   "intermittently",
+   "episodic"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "negligible",
+  "definition": "So small that it can be ignored.",
+  "synonyms": [
+   "insignificant"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "pedunculated",
+  "definition": "Attached by a narrow stalk. A pedunculated fibroid or polyp hangs from a stalk rather than sitting broadly on the wall.",
+  "synonyms": [
+   "pedunculated",
+   "on a stalk",
+   "peduncle"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "sessile",
+  "definition": "Attached directly by a broad base, without a stalk. The opposite of pedunculated.",
+  "synonyms": [
+   "broad-based"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "peripheral",
+  "definition": "Located at or near the outer edge of a structure rather than its center.",
+  "synonyms": [
+   "peripherally",
+   "periphery"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "central",
+  "definition": "Located at or near the middle of a structure.",
+  "synonyms": [
+   "centrally"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "tapering",
+  "definition": "Becoming gradually narrower toward one end.",
+  "synonyms": [
+   "tapers",
+   "tapered"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "uniform",
+  "definition": "The same throughout; not varying.",
+  "synonyms": [
+   "uniformly"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "unremarkable",
+  "definition": "Showing nothing abnormal or worth noting; normal.",
+  "synonyms": [
+   "within normal limits",
+   "WNL"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "vague",
+  "definition": "Not clearly defined or described; indistinct.",
+  "synonyms": [
+   "vaguely"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "inferior to",
+  "definition": "In general English, 'inferior' can mean lower in quality. In anatomy it means lower in position, toward the feet; check the context.",
+  "synonyms": [
+   "inferior in quality"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "appreciable",
+  "definition": "Large enough to be noticed or measured. In reports, 'no appreciable fluid' means none could be seen, and 'is appreciated' means it was seen.",
+  "synonyms": [
+   "appreciated",
+   "appreciate"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "pertinent",
+  "definition": "Relevant to the matter at hand. Pertinent negatives are normal findings that matter because they rule something out.",
+  "synonyms": [
+   "relevant"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "progressive",
+  "definition": "Getting worse or developing further over time.",
+  "synonyms": [
+   "progression",
+   "progressively"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "regress",
+  "definition": "To shrink, go back, or return toward normal.",
+  "synonyms": [
+   "regression",
+   "regressed"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "resolve",
+  "definition": "In clinical use, to go away or return to normal, as in 'the fluid collection has resolved'. (In imaging physics, resolution instead means the ability to show fine detail.)",
+  "synonyms": [
+   "resolution",
+   "resolved"
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ },
+ {
+  "term": "versus",
+  "definition": "Against or compared with; in reports it lists alternatives, as in 'cyst versus abscess'.",
+  "synonyms": [
+   "vs",
+   "vs."
+  ],
+  "source": "general_dictionary",
+  "category": ""
+ }
+]

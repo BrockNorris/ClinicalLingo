@@ -1,0 +1,6 @@
+{
+ "name": "general_dictionary",
+ "embedder": "ollama:all-minilm",
+ "dim": 384,
+ "count": 54
+}
