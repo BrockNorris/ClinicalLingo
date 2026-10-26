@@ -3,9 +3,10 @@
 After an explanation, the model writes comprehension questions grounded in the
 retrieved entries. The student's free-response answer is embedded and compared
 to the reference answer with cosine similarity (the "similarity metric").
-    similarity <  QUIZ_DEEPER_BELOW  -> verdict "deeper"  : model re-explains more simply
-    similarity >= QUIZ_RELATED_ABOVE -> verdict "related" : show neighbouring terms to go further
-    otherwise                        -> verdict "clarify" : restate the reference answer
+    similarity <  QUIZ_DEEPER_BELOW (0.40) -> "deeper"  : model re-explains more simply
+    similarity >= QUIZ_RELATED_ABOVE (0.58) -> "related" : correct; show neighbouring terms to go further
+    otherwise                               -> "clarify" : mostly right; add the textbook wording
+Thresholds come from examples/calibrate_quiz.py (see config.py for the measured distributions).
 
 If the model fails to produce usable questions, deterministic fallback
 questions are built straight from the retrieved entries, so the loop still runs.
@@ -91,7 +92,7 @@ class FeedbackLoop:
                 log.warning("deeper explanation failed: %s", e)
             return f"Let's go deeper. The key idea: {q.reference_answer}"
         if verdict == "clarify":
-            return f"Close. To be precise: {q.reference_answer}"
+            return f"Mostly there. The textbook wording adds: {q.reference_answer}"
         others = [c for c in retrieval.chunks if c.term.lower() != q.based_on_term.lower()][:3]
         if not others:
             return "Correct. You have this one; nothing more to add from the dictionary."

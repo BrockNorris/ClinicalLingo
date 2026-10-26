@@ -47,9 +47,11 @@ GEN_TIMEOUT_S = 120.0
 GEN_MAX_TOKENS = 400
 EMBED_TIMEOUT_S = 60.0
 
-# Feedback-loop contract (cosine similarity between student answer and reference answer)
-QUIZ_DEEPER_BELOW = 0.55
-QUIZ_RELATED_ABOVE = 0.75
+# Feedback-loop contract (cosine similarity between student answer and the reference answer / dictionary entry).
+# Calibrated with examples/calibrate_quiz.py on all-MiniLM-L6-v2: correct paraphrases scored 0.43-0.94
+# (median 0.71), partial answers 0.19-0.73 (median 0.33), wrong answers 0.04-0.76 (median 0.22).
+QUIZ_DEEPER_BELOW = 0.40
+QUIZ_RELATED_ABOVE = 0.58
 
 # Web tool: only these domains are ever fetched
 ALLOWED_DOMAINS = (
