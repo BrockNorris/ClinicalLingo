@@ -4,23 +4,23 @@ Project Assignment 2: First Working Prototype
 
 # Clinical Lingo: Textbook Translator Prototype 1
 
-Code: https://github.com/BrockNorris/ClinicalLingo (README explains how to run it). Every model runs locally through Ollama; no hosted API is used.
+Code: https://github.com/BrockNorris/ClinicalLingo (README explains how to run it). Every model runs locally through Ollama.
 
 ## 1. Prototype Architecture Diagram
 
 ![Prototype 1 architecture](architecture.png)
 
-Solid boxes are built; dashed boxes (photo input and on-device OCR, response validation with rate limiting, the mobile client and server) are from the Part 1 design and not built yet. Compared with Part 1, two things were added from the proposal feedback: an allow-listed **web search tool** whose results are cached in a second RAG index, and a **feedback loop** that quizzes the student on the retrieved content, scores free-response answers with an embedding similarity metric, and adapts the follow-up. The Mermaid source and the full contract table are in `docs/architecture.md`.
+Solid boxes are built; dashed boxes (photo input and on-device OCR, response validation with rate limiting, the mobile client and server) are not built yet. Two things were added from the proposal feedback: an allow-listed **web search tool** whose results are cached in a second RAG index, and a **feedback loop** that quizzes the student on the retrieved content, scores free-response answers with an embedding similarity metric, and adapts the follow-up.
 
 ## 2. Working Prototype
 
 The prototype is a command-line tool: `run explain "<text>" --mode word|sentence|page [--quiz] [--web]`. One run passes through six stages, each timed and recorded in `logs/runs.jsonl`:
 
-1. **Validation**: mode check, control-character stripping, non-empty, per-mode length cap (64 / 512 / 4000 characters).
-2. **Retrieval (RAG)**: the input is embedded with all-MiniLM-L6-v2; whole-term lexical matches and cosine neighbours (score ≥ 0.35) are gathered from a 248-entry medical dictionary (priority), a 54-entry general dictionary, and the web cache.
+1. **Validation**: checks that the command is a word|sentence|page, cleans up the text submitted, after cleaning the prompt is checked for being empty. Once the prompt is cleaned it is then checked for a character limit in order to prevent a page being truncated if it is longer than 4,000 characters (Phi-3-mini's limit) or a sentence or page taking more tokens than necessary if passed in as a word. Lastly, if text submitted as a word has more than 2 spaces in it then the user will be asked to change it to a sentence.
+2. **Retrieval (RAG)**: the input is embedded with all-MiniLM-L6-v2; whole-term lexical matches and cosine neighbours (score ≥ 0.35) are gathered from a 248-entry medical dictionary (priority), a 54-entry general dictionary, and the web cache. The medical and general dictionaries is currently a seed to verify functionality.
 3. **Tool call**: in word mode, if the best medical-dictionary score is below 0.55 and nothing is cached, the web tool probes Radiopaedia's article URL and searches DuckDuckGo/Yahoo restricted to an allow-list (radiopaedia.org, medlineplus.gov, webmd.com, ncbi.nlm.nih.gov, ...), fetches pages, splits paragraphs into ~500-character passages, and keeps those with similarity ≥ 0.35 to the query. Kept passages are embedded into the `web_cache` index so the next lookup never hits the web.
-4. **Model inference**: Phi-3-mini (3.8B) via Ollama in JSON mode, with the numbered entries in the prompt.
-5. **Postprocessing**: lenient JSON extraction, Pydantic validation into a `DefinitionCard` or `Rewrite`, a grounding check (does the output cite or mention a retrieved entry?), and a confidence flag. One retry on parse or model error.
+4. **Model inference**: Phi-3-mini (3.8B) via Ollama in JSON mode, with the retreived definitions in the prompt.
+5. **Postprocessing**: the translation/result is analyzed, the extra words removed, and it is checked to make sure it includes at least some of the definitons provided. A confidence flag is attached. One retry on parse or model error.
 6. **Output**, then optionally the **feedback loop** (simple agent loop): the model writes two comprehension questions from the retrieved entries; the student's free-text answer is scored by cosine similarity against the reference answer and the dictionary entry (max of the two); below 0.55 the model re-explains more simply, 0.55 to 0.75 it restates the precise answer, above 0.75 it offers related terms.
 
 ### Example runs (full text and log lines in `docs/example_runs.md`)
